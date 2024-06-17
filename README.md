@@ -1,19 +1,26 @@
-https://youtu.be/y_3xp551iVw
-Link do da demonstração do jogo.
+## Apocalípse Zombie X
 
-#Nome do Jogo: Acolapsí Zombie X
-Descrição do Jogo:
-Acolapsí Zombie X é um jogo de ação e sobrevivência onde um policial tenta escapar de uma cidade infestada por zumbis. O jogador precisa usar suas habilidades de movimentação, corrida e teleportação estratégica para evitar os zumbis e sobreviver o maior tempo possível.
+**Descrição do Jogo:**
 
-Instruções para Jogabilidade:
-Movimentação: Utilize as teclas W, A, S, D para mover o policial pelo mapa da cidade.
-Correr: Segure a tecla Ctrl para aumentar a velocidade de corrida do policial, permitindo fugas rápidas dos zumbis.
-Mudar Tempo: Pressione a tecla Q para alternar entre dia e noite. Isso pode afetar a visibilidade e o comportamento dos zumbis.
-Teleportar: Pressione a tecla T para teleportar o policial para um ponto seguro do mapa, facilitando a fuga dos zumbis.
+Apocalípse Zombie X é um jogo de ação e sobrevivência onde um policial tenta escapar de uma cidade infestada por zumbis. O jogador precisa usar suas habilidades de movimentação, corrida e teleportação estratégica para evitar os zumbis e sobreviver o maior tempo possível.
 
-Menu do Jogo:
+**Instruções para Jogabilidade:**
+
+- **Movimentação:**  Utilize as teclas W, A, S, D para mover o policial pelo mapa da cidade.
+- **Correr:** Segure a tecla Ctrl para aumentar a velocidade de corrida do policial, permitindo fugas rápidas dos zumbis.
+- **Mudar Tempo:** Pressione a tecla Q para alternar entre dia e noite. Isso pode afetar a visibilidade e o comportamento dos zumbis.
+- **Teleportar:** Pressione a tecla T para teleportar o policial para um ponto seguro do mapa, facilitando a fuga dos zumbis.
+
+**Gameplay:**
+Vídeo demonstrativo de gameplay do jogo:
+- **Link: https://youtu.be/y_3xp551iVw**
+
+
+**Menu do Jogo:**
 
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/19232293-5b6d-42c2-b217-a99ff755cb85)
+
+
 
 Funcionalidades Desenvolvidas:
 Correr
