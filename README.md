@@ -22,11 +22,12 @@ Vídeo demonstrativo de gameplay do jogo:
 
 
 
-Funcionalidades Desenvolvidas:
-Correr
+**Funcionalidades Desenvolvidas:**
+- **Correr**
 Foi implementado um sistema que permite ao jogador aumentar a velocidade do personagem quando a tecla Ctrl é pressionada, facilitando a fuga dos zumbis.
 
-código:
+**Código:**
+```csharp
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -84,15 +85,19 @@ public class ControlePersonagem : MonoBehaviour
         heroi.SetBool("Parado", !isMoving);
     }
 }
+```
 
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/17a5d9a3-6afb-4609-b013-aee86ce7dffa)
 
-Teleportar
+
+
+- **Teleportar**
 Foi adicionado um sistema que permite ao jogador teleportar o personagem para uma posição pré-definida no mapa, usando a tecla T para facilitar a fuga estratégica dos zumbis.
 using UnityEngine;
 
-código:
+**Código:**
 
+```csharp
 public class Teleporter : MonoBehaviour
 {
     public Transform teleportTarget; // Alvo de teletransporte
@@ -118,6 +123,7 @@ public class Teleporter : MonoBehaviour
         transform.position = teleportTarget.position;
     }
 }
+```
 
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/ee14fc6f-2d2b-480a-b0b4-d460ba84f4ea)
 
