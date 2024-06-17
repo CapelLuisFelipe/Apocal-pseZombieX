@@ -15,11 +15,26 @@ Apocalípse Zombie X é um jogo de ação e sobrevivência onde um policial tent
 Vídeo demonstrativo de gameplay do jogo:
 - **Link: https://youtu.be/y_3xp551iVw**
 
-
-**Menu do Jogo:**
+**Prints do jogo:**
+  
+- **Menu do Jogo:**
 
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/19232293-5b6d-42c2-b217-a99ff755cb85)
 
+- **Print durante o dia:**
+![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d011dca7-e4dd-46f2-9b48-018153e4e978)
+
+ - **Print durante a noite:**
+
+![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d05fe81b-3152-4fe8-a8d6-93d059df053e) 
+
+- **Print na floresta:**
+
+![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/8aaa8344-81bd-4ede-936e-202f2c4302b9)
+
+- **Print na cidade:**
+
+![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/3e910c63-4757-44b0-8bdd-9cf7dd55b257)
 
 
 **Funcionalidades Desenvolvidas:**
@@ -126,5 +141,7 @@ public class Teleporter : MonoBehaviour
 ```
 
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/ee14fc6f-2d2b-480a-b0b4-d460ba84f4ea)
+
+
 
 
