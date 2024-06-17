@@ -21,10 +21,10 @@ Vídeo demonstrativo de gameplay do jogo:
 
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/19232293-5b6d-42c2-b217-a99ff755cb85)
 
-- **Print durante o dia:**
+- **Print durante a noite:**
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d011dca7-e4dd-46f2-9b48-018153e4e978)
 
- - **Print durante a noite:**
+ - **Print durante o dia:**
 
 ![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d05fe81b-3152-4fe8-a8d6-93d059df053e) 
 
