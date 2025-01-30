@@ -1,47 +1,46 @@
-## Apocalípse Zombie X
+# **🧟‍♂️🔥 Apocalipse Zombie X 🧟‍♂️🔥**
 
-**Descrição do Jogo:**
+## **Descrição do Jogo**
 
-Apocalípse Zombie X é um jogo de ação e sobrevivência onde um policial tenta escapar de uma cidade infestada por zumbis. O jogador precisa usar suas habilidades de movimentação, corrida e teleportação estratégica para evitar os zumbis e sobreviver o maior tempo possível.
+*Apocalipse Zombie X* é um eletrizante jogo de ação e sobrevivência onde você assume o papel de um policial tentando escapar de uma cidade infestada por zumbis. Para sobreviver, o jogador deve utilizar habilidades estratégicas de movimentação, corrida e teletransporte enquanto explora diferentes cenários e enfrenta desafios cada vez mais intensos.
 
-**Instruções para Jogabilidade:**
+## **Instruções de Jogabilidade**
 
-- **Movimentação:**  Utilize as teclas W, A, S, D para mover o policial pelo mapa da cidade.
-- **Correr:** Segure a tecla Ctrl para aumentar a velocidade de corrida do policial, permitindo fugas rápidas dos zumbis.
-- **Mudar Tempo:** Pressione a tecla Q para alternar entre dia e noite. Isso pode afetar a visibilidade e o comportamento dos zumbis.
-- **Teleportar:** Pressione a tecla T para teleportar o policial para um ponto seguro do mapa, facilitando a fuga dos zumbis.
+- **Movimentação:** Utilize as teclas **W, A, S, D** para mover o personagem pelo mapa.
+- **Correr:** Pressione **Ctrl** para aumentar a velocidade do personagem, permitindo fugas rápidas dos zumbis.
+- **Mudança de Tempo:** Pressione **Q** para alternar entre dia e noite. A variação do tempo influencia a visibilidade e o comportamento dos inimigos.
+- **Teletransporte:** Pressione **T** para se teleportar para um ponto seguro do mapa, garantindo uma fuga estratégica.
 
-**Gameplay:**
-Vídeo demonstrativo de gameplay do jogo:
-- **Link: https://youtu.be/y_3xp551iVw**
+## **Gameplay**
 
-**Prints do jogo:**
-  
-- **Menu do Jogo:**
+Confira o vídeo demonstrativo do jogo:
+▶️ [**Gameplay de Apocalipse Zombie X**](https://youtu.be/y_3xp551iVw)
 
-![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/19232293-5b6d-42c2-b217-a99ff755cb85)
+## **Capturas de Tela**
 
-- **Print durante a noite:**
-![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d011dca7-e4dd-46f2-9b48-018153e4e978)
+### **📌 Menu Principal**
+![Menu do Jogo](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/19232293-5b6d-42c2-b217-a99ff755cb85)
 
- - **Print durante o dia:**
+### **🌙 Cenário Noturno**
+![Cena à Noite](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d011dca7-e4dd-46f2-9b48-018153e4e978)
 
-![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d05fe81b-3152-4fe8-a8d6-93d059df053e) 
+### **☀️ Cenário Diurno**
+![Cena de Dia](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/d05fe81b-3152-4fe8-a8d6-93d059df053e)
 
-- **Print na floresta:**
+### **🌲 Floresta Misteriosa**
+![Floresta](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/8aaa8344-81bd-4ede-936e-202f2c4302b9)
 
-![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/8aaa8344-81bd-4ede-936e-202f2c4302b9)
+### **🏙️ Cidade Infestada**
+![Cidade](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/3e910c63-4757-44b0-8bdd-9cf7dd55b257)
 
-- **Print na cidade:**
+---
 
-![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/3e910c63-4757-44b0-8bdd-9cf7dd55b257)
+## **Funcionalidades Desenvolvidas**
 
+### **🏃‍♂️ Corrida Rápida**
+Foi implementado um sistema de corrida que permite ao jogador aumentar temporariamente a velocidade do personagem ao pressionar a tecla **Ctrl**, facilitando a fuga de situações perigosas.
 
-**Funcionalidades Desenvolvidas:**
-- **Correr**
-Foi implementado um sistema que permite ao jogador aumentar a velocidade do personagem quando a tecla Ctrl é pressionada, facilitando a fuga dos zumbis.
-
-**Código:**
+#### **Código:**
 ```csharp
 using System.Collections;
 using System.Collections.Generic;
@@ -102,17 +101,13 @@ public class ControlePersonagem : MonoBehaviour
 }
 ```
 
-![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/17a5d9a3-6afb-4609-b013-aee86ce7dffa)
+### **⚡ Teletransporte Estratégico**
+Foi implementado um sistema de teletransporte que permite ao jogador escapar de emboscadas rapidamente ao pressionar **T**, transportando-se para um ponto seguro do mapa.
 
-
-
-- **Teleportar**
-Foi adicionado um sistema que permite ao jogador teleportar o personagem para uma posição pré-definida no mapa, usando a tecla T para facilitar a fuga estratégica dos zumbis.
+#### **Código:**
+```csharp
 using UnityEngine;
 
-**Código:**
-
-```csharp
 public class Teleporter : MonoBehaviour
 {
     public Transform teleportTarget; // Alvo de teletransporte
@@ -140,8 +135,11 @@ public class Teleporter : MonoBehaviour
 }
 ```
 
-![image](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/ee14fc6f-2d2b-480a-b0b4-d460ba84f4ea)
+![Teletransporte](https://github.com/CapelLuisFelipe/Apocal-pseZombieX/assets/125330670/ee14fc6f-2d2b-480a-b0b4-d460ba84f4ea)
 
+---
 
+## **Conclusão**
 
+*Apocalipse Zombie X* oferece uma experiência envolvente de sobrevivência em um mundo pós-apocalíptico repleto de perigos. Com mecânicas estratégicas de movimentação, corrida e teletransporte, o jogo proporciona desafios intensos e momentos de pura adrenalina. Prepare-se para testar suas habilidades e sobreviver o máximo possível neste caos zumbi! 🧟‍♂️🔥
 
